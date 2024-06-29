@@ -1,0 +1,69 @@
+:root {
+    --yasil:#54d154;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    background: url('../img/headerbg.jpg') center/cover;
+}
+#menu  li a{
+    font: 1em "Proxima Nova",bold;
+    color: #fff;
+    padding: 30px 5px;
+}
+#search{
+    display: flex;
+    justify-content: center;  
+}
+#search input ,#search button{
+    background: #ffffffcc;
+    height: 27px;
+    padding: 6px 15px;
+}
+#search input{
+    border-radius: 15px 0 0 15px;
+}
+#search button{
+    border-radius: 0 15px 15px 0;
+}
+#search button img{
+    height: 14px;
+}
+#title h1{
+    font: 2em "Montserrat";
+    font-weight: 700;
+    color: #ffffff;
+}
+#scroll{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 15px 15px;
+    color: black;
+    background-color: #c4c1c2;
+    opacity: 70%;
+}
+#title a{
+    text-align: center;
+    font:22px "Proxima Nova";
+    margin-top: 40px;
+    padding: 10px 2px;
+    display: inline-block;
+    height: 49px;
+    width: 207px;
+    border-radius: 15px 15px;
+    background: #54d154;
+}
+@media only screen and (min-width: 768px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    #menu{
+        display: flex;
+        order: -1;
+    }
+}
